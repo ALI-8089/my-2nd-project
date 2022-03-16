@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+}
+header{
+    position: fixed;
+    width: 100%;
+z-index: 1;
+}
+.header-1{
+    display: flex;
+    padding-left: 10px;
+    background-color: #363333;
+    align-items: center;
+    padding: 5px 5px;
+    margin-top: 1px;
+    
+}
+.header-left{
+    display: flex;
+    
+}
+.left-option{
+    padding-left: 20px;
+    
+}
+
+.header-left img{
+    width: 100px;
+    border-radius: 10px;
+    
+}
+.header-right{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    padding-right: 30px;
+    
+
+}
+.header-right img{
+    width: 18px;
+    height: 18px;
+    border-radius: 50px;
+    }
+.right-option{
+    padding-left: 15px;
+}
+.material-icons{
+    color: #fff;
+}
+.right-option:hover{
+    cursor: pointer;
+}
+.left-option:hover{
+    cursor: pointer;
+    transform: scale(0.98);
+}
+/* header 2 */
+.header-2{
+    background-color: black;
+    display: flex;
+    align-items: center;
+
+    
+}
+.h2-left{
+    padding: 10px 15px;
+}
+.h2-left img{
+    width: 150px;
+}
+.h2-left img:hover{
+    cursor: pointer;
+}
+.h2-middle{
+    display: flex;
+    margin-left: auto;
+    
+    
+}
+.h2-middle h4:hover{
+    cursor: pointer;
+}
+.option{
+    color: #fff;
+    padding-left:20px ;
+    
+    
+}
+.option h3{
+    font-size: small;
+    font-style: italic;
+    font-weight: bold;
+}
+.h2-right{
+    align-items: center;
+
+    display: flex;
+    flex: .5;
+    margin-left: 250px;
+    margin-right: 20px;
+    
+    border:1px solid #363333;
+}
+
+.h2-right input{
+background-color: transparent;
+border: none;
+margin: 10px ;
+}
+.h2-left input::placeholder{
+    color: #fff;
+
+    
+    
+}
+/* main body */
+.body-image img{
+    width: 100%;
+    height: 700px;
+}
+.text-on-center{
+
+position: absolute;
+top: 40%;
+left: 40%;
+align-items: center;
+line-height: 80px;
+font-size: x-large;
+font-weight: 500;
+
+}
+.text-on-center-2{
+    position: absolute;
+    top: 140%;
+    left: 30%;
+    align-items: center;
+    line-height: 80px;
+    font-size: x-large;
+
+}
+.text-on-center-2 h1{
+color: black;
+}
+.text-on-center-2 h2{
+color: black;
+}
+.text-on-center-2 button{
+width: auto;
+background-color: black;
+color: #fff;
+font-weight: 500;
+margin-left: 150px;
+cursor: pointer;
+}
+.text-on-center-3{
+    position: absolute;
+    top: 240%;
+    left: 30%;
+    align-items: center;
+    line-height: 80px;
+    font-size: x-large;
+
+}
+
+.text-on-center button{
+width: 150px;
+cursor: pointer;
+background-color: black;
+color: #fff;
+
+}
+.two-buttom button{
+width: 250px;
+cursor: pointer;
+}
+
+/* footer starts */
+.footer{
+    background-color: #363333;
+   
+}
+.footer-row{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+h1{
+    color: #fff;
+}
+h2{
+    color: gray;
+    text-align: center;
+}
+.footer-row h4{
+    color: gray;
+    line-height: 200%;
+    text-align: center;
+}
+.brand-icon{
+    padding: 20px 20px;
+cursor: pointer;
+    
+    
+}
+.brand-icon:hover{
+    background-color: gray;
+    border-radius: 999px;
+
+}
+button{
+    background-color: #fff;
+    border: none;
+    height: 44px;
+    width: 60px;
+
+
+}
+.colour{
+    color: #fff;
+}
+input::-webkit-input-placeholder{
+    color:gray;
+    
+}
+.footer-row input{
+    background-color: transparent;
+    border: 1px solid #fff;
+    height: 40px;
+    width: 500px;
+
+}
+/* footer 2 */
+.footer-2{
+    align-items: center;
+    padding: 50px 200px;
+    background-color: #363333;
+
+}
+.inner-footer{
+    display: flex;
+   justify-content:space-between;
+   border-bottom: .5px solid gray;
+   border-top: .5px solid gray;
+    
+}
+.inner-footer h4{
+    line-height:200%;
+}
+.content h3{
+    color: #fff;
+    padding-bottom: 20px;
+}
+.content li{
+    color: gray;
+    padding-bottom: 10px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.content{
+    padding: 20px 20px;
+}
+li:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-position: under;
+    cursor: pointer;
+
+}
+/* end footer */
+.foot-right{
+    display: flex;
+    margin-left:auto ;
+ 
+}
+.foot-right h3{
+    color: #fff;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.foot-right img{
+    width: 30px;
+    border-radius:20px;
+    cursor: pointer;
+    
+}
+.end-footer{
+    display: flex;
+    
+}
+.copyright p{
+    color: #fff;
+}
+.option:hover{
+    cursor: pointer;
+    
+}
+
+    
+
